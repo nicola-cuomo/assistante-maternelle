@@ -15,8 +15,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body>
-        <main id="root" className="flex min-h-screen flex-col items-center justify-between p-12">
+      <body className='bg-gray-100'>
+        <main id="root" className="flex flex-col items-center p-12">
           <div className="relative flex place-items-center">
             <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
               Assistante Maternelle
