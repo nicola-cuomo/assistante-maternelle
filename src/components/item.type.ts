@@ -20,14 +20,9 @@ export const itemTypeBackgroundColors = {
 
 export type ItemType = typeof itemTypes[number];
 
-export type SelectedTime = {
-  selectedHour: string;
-  selectedMinute: string;
-};
-
 export type Item = {
   id: string;
   type: ItemType;
-  description: string;
-  selectedTime: SelectedTime;
+  time: string;
+  biberonSize?: string;
 };
